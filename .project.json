@@ -1,0 +1,112 @@
+{
+  "projectType": [
+    "com.watt.commonbuilder.sapui5clientbuild",
+    "sap.watt.uitools.ide.fiori"
+  ],
+  "generation": [
+    {
+      "templateId": "fioriexttemplate.extensionProject",
+      "templateVersion": "1.4.0",
+      "dateTimeStamp": "Wed, 25 Sep 2019 14:07:44 GMT"
+    }
+  ],
+  "translation": {
+    "translationDomain": "",
+    "supportedLanguages": "en,fr,de",
+    "defaultLanguage": "en",
+    "defaultI18NPropertyFile": "i18n.properties",
+    "resourceModelName": "i18n"
+  },
+  "mockpreview": {
+    "mockUri": "/sap/opu/odata/sap/CRM_ODATA/",
+    "metadataFilePath": "",
+    "loadJSONFiles": false,
+    "loadCustomRequests": false,
+    "mockRequestsFilePath": ""
+  },
+  "basevalidator": {
+    "services": {
+      "xml": "fioriXmlAnalysis",
+      "js": "fioriJsValidator"
+    }
+  },
+  "codeCheckingTriggers": {
+    "notifyBeforePush": true,
+    "notifyBeforePushLevel": "Error",
+    "blockPush": false,
+    "blockPushLevel": "Error"
+  },
+  "extensibility": {
+    "controllers": {
+      "Main": "CRM_OPPRTNTY%2fMain.controller.js",
+      "S2": "CRM_OPPRTNTY%2fview%2fS2.controller.js",
+      "S3": "CRM_OPPRTNTY%2fview%2fS3.controller.js",
+      "S4": "CRM_OPPRTNTY%2fview%2fS4.controller.js",
+      "S5": "CRM_OPPRTNTY%2fview%2fS5.controller.js"
+    },
+    "views": {
+      "Main": "CRM_OPPRTNTY%2fMain.view.xml",
+      "S2": "CRM_OPPRTNTY%2fview%2fS2.view.xml",
+      "S2_Offline": "CRM_OPPRTNTY%2fview%2fS2_Offline.view.xml",
+      "S3": "CRM_OPPRTNTY%2fview%2fS3.view.xml",
+      "S4": "CRM_OPPRTNTY%2fview%2fS4.view.xml",
+      "S5": "CRM_OPPRTNTY%2fview%2fS5.view.xml"
+    },
+    "fragments": {
+      "AccountSelectDialog": "CRM_OPPRTNTY%2fview%2fAccountSelectDialog.fragment.xml",
+      "ChangeLog": "CRM_OPPRTNTY%2fview%2fChangeLog.fragment.xml",
+      "ContactF4": "CRM_OPPRTNTY%2fview%2fContactF4.fragment.xml",
+      "CurrencySelectDialog": "CRM_OPPRTNTY%2fview%2fCurrencySelectDialog.fragment.xml",
+      "EditLayout": "CRM_OPPRTNTY%2fview%2fEditLayout.fragment.xml",
+      "EmployeeF4": "CRM_OPPRTNTY%2fview%2fEmployeeF4.fragment.xml",
+      "ParticipantsF4": "CRM_OPPRTNTY%2fview%2fParticipantsF4.fragment.xml",
+      "ParticipantsF4Multiselect": "CRM_OPPRTNTY%2fview%2fParticipantsF4Multiselect.fragment.xml",
+      "ProcessTypeDialog": "CRM_OPPRTNTY%2fview%2fProcessTypeDialog.fragment.xml",
+      "ProductBasketDialog": "CRM_OPPRTNTY%2fview%2fProductBasketDialog.fragment.xml",
+      "SalesAreaDialog": "CRM_OPPRTNTY%2fview%2fSalesAreaDialog.fragment.xml",
+      "ShowErrorMsg": "CRM_OPPRTNTY%2fview%2fShowErrorMsg.fragment.xml",
+      "SortingDialog": "CRM_OPPRTNTY%2fview%2fSortingDialog.fragment.xml",
+      "SortingDialog_Offline": "CRM_OPPRTNTY%2fview%2fSortingDialog_Offline.fragment.xml",
+      "showMaxHit": "CRM_OPPRTNTY%2fview%2fshowMaxHit.fragment.xml"
+    },
+    "type": "abaprep",
+    "shouldLinkComponentToManifest": true,
+    "component": "CRM_OPPRTNTY%2fComponent.js",
+    "configuration": "CRM_OPPRTNTY%2fConfiguration.js",
+    "manifest": "CRM_OPPRTNTY%2fmanifest.json",
+    "versionJsonPath": "CRM_OPPRTNTY%2fversion.json",
+    "minUI5Version": "1.38.9",
+    "system": {
+      "name": "DCR",
+      "description": "DGW",
+      "proxyUrlPrefix": "/webidedispatcher/destinations/DCR",
+      "path": "/sap/bc/adt",
+      "url": "/webidedispatcher/destinations/DCR/sap/bc/adt",
+      "wattUsage": "dev_abap",
+      "systemId": "DGW",
+      "entryPath": "/sap/bc/adt",
+      "sapClient": "204",
+      "additionalData": []
+    },
+    "discoveryStatus": {
+      "csrfToken": "NlQR9hwSNqGMStkg0h3iYQ==",
+      "transports": "/webidedispatcher/destinations/DCR/sap/bc/adt/cts/transports",
+      "transportchecks": "/webidedispatcher/destinations/DCR/sap/bc/adt/cts/transportchecks",
+      "filestore_ui5_bsp": "/webidedispatcher/destinations/DCR/sap/bc/adt/filestore/ui5-bsp/objects",
+      "search": "/webidedispatcher/destinations/DCR/sap/bc/adt/repository/informationsystem/search",
+      "ato_settings": "/webidedispatcher/destinations/DCR/sap/bc/adt/ato/settings",
+      "ui5_rt_version": "/webidedispatcher/destinations/DCR/sap/bc/adt/filestore/ui5-bsp/ui5-rt-version",
+      "description": "DGW",
+      "proxyUrlPrefix": "/webidedispatcher/destinations/DCR"
+    },
+    "BSPName": "CRM_OPPRTNTY",
+    "namespace": "cus.crm.opportunity",
+    "resourceBundle": "i18n/i18n.properties",
+    "parentResourceRootUrl": "/destinations/DCR/sap/bc/ui5_ui5/sap/CRM_OPPRTNTY"
+  },
+  "build": {
+    "targetFolder": "dist",
+    "sourceFolder": "webapp",
+    "buildRequired": true
+  }
+}
