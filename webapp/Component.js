@@ -8,7 +8,7 @@ sap.ui.component.load({
 		// we use a URL relative to our own component
 		// extension application is deployed with customer namespace
 });
-
+ 
 this.cus.crm.opportunity.Component.extend("cus.crm.opportunity.zCRM_OPPRTNTYExtension1.Component", {
 	metadata: {
 		manifest: "json"
